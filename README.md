@@ -9,7 +9,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 
 3. A la fin du votre .bashrc ajouter poetry à votre path
 ```
-cd
+cd   # home
 sudo nano .bashrc
 ```
 
@@ -19,10 +19,13 @@ export PATH="$HOME/.local/bin:$PATH"
 ```
 
 ```
-cd
+cd   # home
 source .bashrc
 ```
 
+```
+cd /var/www/biodiv_cleaning_app # racine du projet
+```
 
 4. Verifier l'install
 ```
@@ -38,6 +41,5 @@ poetry install
 ```
 7. Installer l'application
 ```
-cd /var/www/biodiv_cleaning_app
 ./install_app.sh
 ```
