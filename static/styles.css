@@ -1,0 +1,240 @@
+/* Reset some default styles */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8; /* Light background for the entire page */
+    color: #333;
+    /* Avoiding page from scrolling */
+    /* width : 100vw;
+    height: 100vh;
+    overflow: hidden; */    
+    margin: 0;  
+    background-image: url("img/grenouille.jpg");
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 115px 0;
+    /* overflow-y: scroll; */
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+.container_form {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 55px;
+}
+
+.container_header {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.container_footer {
+    width: 50%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #7BB926; /* Primary color for header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #5D8A1F; /* Darker shade for a border */
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+
+aside p {
+    width: max-content;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+    float: left;
+    font-style: italic;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: lighter;
+    text-justify: auto;
+    text-indent: 10%;
+    opacity: 0.65;
+    color:#fff;
+    display: table;
+    background-color: rgb(0, 0, 0);
+  }
+
+aside a {
+    color:yellow;
+    text-decoration: none;
+}  
+
+main audio {
+    width: 15%;
+    right: 0;
+    position: fixed;
+    /* float: right; */
+    padding-right: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #7BB926; /* Primary color for section headers */
+}
+
+form {
+    background: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+    border: 2px solid #7BB926; /* Primary color border for file input */
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #7BB926; /* Primary color for button */
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #5D8A1F; /* Darker shade for hover effect */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: #FFF;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+.row {
+    background-color: #FFFFFF ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Source : https://fossheim.io/writing/posts/css-text-gradient/ */
+
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: #CA4246;
+  
+  /* Create the gradient. */
+   background-image: linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  /* Animate the text when loading the element. */
+    /* This animates it on page load and when hovering out. */
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+
+}
+
+.gradient-text:hover{
+    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+
+/* Move the background and make it smaller. */
+/* Animation shown when entering the page and after the hover animation. */
+@keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-simple-animation {
+    0% {
+        background-size: 100%;
+    }
+    80% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 650%;
+    }
+}
+
+/* Quand l'écran est plus grand que 964px, appliquer un dézoom similaire à `Ctrl -` */
+@media (min-width: 965px) {
+    html {
+        zoom: 75%; /* Dézoome à 75% de la taille d'origine */
+    }
+}

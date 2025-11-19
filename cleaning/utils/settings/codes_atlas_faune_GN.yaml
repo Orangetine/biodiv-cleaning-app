@@ -1,0 +1,142 @@
+code_atlas:
+    code_atlas_GN : 
+        [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+    code_atlas_faune : 
+        [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 30, 40, 50, 99]    
+    
+transcription_code:
+    transcription_faune : 
+        2 : >-
+            Présence dans son habitat durant sa période de nidification.
+        3 : >-
+            Mâle chanteur présent en période de nidification,
+            cris nuptiaux ou tambourinage entendus, mâle vu en parade.
+        4 : >- 
+            Couple présent dans son habitat durant sa période de nidification.
+        5 : >- 
+            Comportement territorial (chant, querelles avec des voisins, etc.)
+            observé sur un même territoire 2 journées différentes 
+            à 7 jours ou plus d'intervalle.
+        6 : >-
+            Comportement nuptial: parades, copulation ou échange de nourriture entre adultes.
+        7 : >- 
+            Visite d'un site de nidification probable. Distinct d'un site de repos.
+        8 : >-
+            Cri d'alarme ou tout autre comportement agité indiquant la présence d'un nid 
+            ou de jeunes aux alentours.
+        9 : >-
+            Preuve physiologique: plaque incubatrice très vascularisée ou oeuf 
+            présent dans l'oviducte. Observation sur un oiseau en main.
+        10: >-
+            Transport de matériel ou construction d'un nid; forage d'une cavité (pics).
+        11: >-
+            Oiseau simulant une blessure ou détournant l'attention, tels les canards, 
+            gallinacés, oiseaux de rivage, etc.
+        12: >-
+            Nid vide ayant été utilisé ou coquilles d'oeufs de la présente saison.
+        13: >-
+            Jeunes en duvet ou jeunes venant de quitter le nid et incapables 
+            de soutenir le vol sur de longues distances.          
+        14: >-
+            Adulte gagnant, occupant ou quittant le site d'un nid; 
+            comportement révélateur d'un nid occupé dont le contenu ne peut être vérifié 
+            (trop haut ou dans une cavité).
+        15: >-
+            Adulte transportant un sac fécal.
+        16: >-
+            Adulte transportant de la nourriture pour les jeunes 
+            durant sa période de nidification.
+        17: >-
+            Coquilles d'oeufs éclos.
+        18: >-
+            Nid vu avec un adulte couvant.
+        19: >-
+            Nid contenant des oeufs ou des jeunes (vus ou entendus).
+        30: >-
+            Nidification possible.
+        40: >-
+            Nidification probable.
+        50: >-
+            Nidification certaine.
+        99: >-
+            Espèce absente malgré des recherches.
+            
+    transcription_GN :
+        1 : >-
+            Code Atlas 01 - Observation de l’espèce pendant la période de 
+            nidification dans un habitat favorable à la nidification.
+        2 : >-
+            Code Atlas 02 - Mâle chanteur présent en période de nidification, 
+            cris nuptiaux/tambourinage entendus.
+        3 : >-
+            Code Atlas 03 - Couple observé dans un habitat favorable durant la 
+            saison de reproduction.            
+        4 : >-
+            Code Atlas 04 - Comportement territorial (chant, défense, etc.) ou 
+            observation à au moins 8 jours d’intervalle sur le même site.
+        5 : >-
+            Code Atlas 05 - Comportement nuptial (parade, etc.).
+        6 : >-
+            Code Atlas 06 - Fréquentation d’un site de nidification potentiel 
+            (ex : nid).
+        7 : >-
+            Code Atlas 07 - Cris d’alarme ou de crainte des adultes ou autre 
+            comportement agité suggérant la présence d’un nid ou de jeunes aux alentours.
+        8 : >-
+            Code Atlas 08 - Présence d’une plaque incubatrice.
+        9 : >-
+            Code Atlas 09 - Transport de matériel, construction d’un nid ou forage 
+            d’une cavité.
+        10: >-
+            Code Atlas 10 - Adulte feignant une blessure ou cherchant à détourner l’attention.
+        11: >-
+            Code Atlas 11 - Découverte d’un nid ayant été utilisé pendant la saison en cours 
+            (ex : coquilles vides).
+        12: >-
+            Code Atlas 12 - Jeunes fraîchement envolés (nidicoles) ou poussins en duvet 
+            (nidifuges).
+        13: >-
+            Code Atlas 13 - Adulte entrant ou quittant un site de nid, 
+            comportement révélateur d’un nid occupé dont le contenu 
+            ne peut être vérifié (nids inaccessibles).
+        14: >-
+            Code Atlas 14 - Adulte transportant des sacs fécaux ou de la nourriture 
+            pour les jeunes.
+        15: >-
+            Code Atlas 15 - Nid avec oeuf(s).
+        16: >-
+            Code Atlas 16 - Nid avec jeune(s) (vus ou entendus).
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

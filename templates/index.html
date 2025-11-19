@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Cleaning App</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    <link rel="icon" type="image/svg+xml" href="/static/img/frog-solid.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container_header">
+            <h1 class=gradient-text>Data Cleaning Application</h1>
+        </div>
+    </header>
+    
+    <main class="content">
+        <div class="container_form">
+            <h2 class=gradient-text>Upload Your Data Files</h2>
+            <form action="/" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" accept=".csv, .xlsx" required multiple/>
+                <button type="submit">Upload</button>
+            </form> 
+        </div>
+        <aside>
+            <p>
+                <span style="color: yellow;"><a target="_blank" rel="noopener noreferrer" href="https://fr.wikipedia.org/wiki/Hyla_meridionalis"><u>Hyla meridionalis</u></a></span>, connue sous le nom de <br> <span style="color: greenyellow;">rainette méridionale</span>,
+                est une espèce d'amphibiens <br> appartenant à la famille des <span style="color: yellow;">Hylidae</span>.
+                Elle est très <br> proche de la <span style="color: greenyellow;">rainette verte</span> et de la 
+                <span style="color: green;">raine</span><span style="color: white;">tte <br> ita</span><span style="color: red;">lienne</span>,
+                mais se distingue par un chant plus lent <br> et une bande latérale sombre qui met en valeur <br> ses yeux, 
+                sans s'étendre au-delà des antérieurs et <br> ne se prolongeant pas sur les flancs.
+            </p>      
+        </aside>
+        
+        <audio id="fixed" controls>
+            <source src="/static/son/The Rolling Stones - Sympathy For The Devil.mp3" type="audio/mpeg">
+        </audio>
+        
+    </main>
+    
+    
+    <footer>
+        <div class="container_footer">
+            <p>&copy; 2025 Data Cleaning App. All rights reserved.</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <figure>
+                    <a href="{{ url_for('static', filename='img/LogoLinstitutParisRegion.png') }}" data-fancybox="gallery">
+
+                        <img loading="lazy"
+                            src="{{ url_for('static', filename='img/LogoLinstitutParisRegion.png') }}"
+                            width="115"
+                            alt="Web Cleaning App Logo"
+                        >
+                    </a>
+                </figure>
+            </div>
+            <div class="col-sm-12 text-center">
+                <figure>
+                    <a href="{{ url_for('static', filename='img/ARB.jpg') }}" data-fancybox="gallery">
+
+                        <img loading="lazy"
+                            src="{{ url_for('static', filename='img/ARB.jpg') }}"
+                            height="93"
+                            alt="Web Cleaning App Logo"
+                        >
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
