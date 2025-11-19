@@ -1,5 +1,6 @@
 1. Cloner le repo
 ```
+cd /var/www/
 git clone git@github.com:Orangetine/biodiv-cleaning-app.git biodiv_cleaning_app
 ```
 2. Installer poetry
