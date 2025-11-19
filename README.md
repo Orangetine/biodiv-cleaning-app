@@ -8,7 +8,7 @@ git clone git@github.com:Orangetine/biodiv-cleaning-app.git biodiv_cleaning_app
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 
-3. A la fin du votre .bashrc ajouter poetry à votre path
+3. A la fin du .bashrc ajouter poetry à votre path
 ```
 cd   # home
 sudo nano .bashrc
