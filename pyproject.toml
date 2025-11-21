@@ -1,5 +1,8 @@
 [tool.poetry]
 name = "web-cleaning-app"
+packages = [
+    { include = "cleaning" },
+]
 version = "0.1.0"
 description = "A fauna & flora data cleaning web application."
 authors = ["Salima RAKASS"]

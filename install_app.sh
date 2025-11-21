@@ -6,7 +6,8 @@ set -a
 set +a
 
 . $venv_dir/bin/activate
-
+mkdir cleaning/cleaning_LPO/uploads_LPO
+mkdir cleaning/cleaning_LPO/cleaned_LPO
 
 echo "Stopping application..."
 sudo systemctl stop cleaning-app.service
